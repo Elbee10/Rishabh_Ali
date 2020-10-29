@@ -4,76 +4,101 @@
     <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: aqua;
+        }
+
+        #navbar {
+          position: absolute;
+          top: 0;
+          left: 0;
+          padding-bottom: 20rem;
+        }
+
+        #navbar ul {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    </style>
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <nav id="navbar">
-      <header>
-        Introduction
-      </header>
       <ul>
-          <a href="#introduction" class="nav-link">Introduction</a>
-          <a href="#JavaScript_Java" class="nav-link">JavaScript and Java</a>
-          <a href="#variables" class="nav-link">Variables</a>
-          <a href="#Hello_World" class="nav-link">Hello_World</a>
-          <a href="#constants" class="nav-link">Constants</a>
-
+        <header>JS DOCS</header>
+        <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+        <li>
+          <a href="#Javascript_and_Java" class="nav-link"
+            >JavaScript and Java</a
+          >
+        </li>
+        <li><a href="#Variables" class="nav-link">Variables</a></li>
+        <li><a href="#Hello_World" class="nav-link">Hello_World</a></li>
+        <li><a href="#Constants" class="nav-link">Constants</a></li>
       </ul>
-
     </nav>
 
     <main id="main-doc">
-        <section class="main-section">
-          <header id="introduction">Introduction
-            <p>Intro of intro</p>
-            <p>Intro of intro</p>
-            <p>Intro of intro</p>
-          </header>
-          <li>first list</li>
-        </section>
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>Intro of intro</p>
+          <p>Intro of intro</p>
+          <p>Intro of intro</p>
+        </article>
 
-        <section class="main-section">
-          <header id="JavaScript_Java">
-            JS and Java
-            <p>Intro of intro</p>
-            <p>Intro of intro</p>
-          </header>
-          <li>Second list</li>
+        <li>first list</li>
+        <code>x + y = 10</code>
+        <code>x + y = 10</code>
+      </section>
 
-        </section>
+      <section class="main-section" id="Javascript_and_Java">
+        <header>JavaScript and Java</header>
+        <article>
+          <p>Intro of intro</p>
+          <p>Intro of intro</p>
+        </article>
 
-        <section class="main-section">
-            <header id="variables">
-              Variables
-              <p>Intro of intro</p>
-              <p>Intro of intro</p>
-            </header>
-            <li>Third list</li>
+        <li>Second list</li>
+      </section>
 
-        </section>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <article>
+          <p>Intro of intro</p>
+          <p>Intro of intro</p>
+        </article>
 
-        <section class="main-section">
-            <header id="Hello_World">
-              Hello World
-              <p>Intro of intro</p>
-              <p>Intro of intro</p>
-            </header>
-            <li>Fourth list</li>
+        <li>Third list</li>
+        <code>x + y = 10</code>
+      </section>
 
-        </section>
+      <section class="main-section" id="Hello_World">
+        <header>Hello_World</header>
+        <article>
+          <p>Intro of intro</p>
+          <p>Intro of intro</p>
+        </article>
 
-        <section class="main-section">
-          <header id="constants">
-            Constants
-            <p>Intro of intro</p>
-            <p>Intro of intro</p>
-          </header>
-          <li>Fifth list</li>
+        <li>Fourth list</li>
+        <code>x + y = 10</code>
+      </section>
 
-        </section>
+      <section class="main-section" id="Constants">
+        <header>Constants</header>
+        <article>
+          <p>Intro of intro</p>
+          <p>Intro of intro</p>
+        </article>
+
+        <li>Fifth list</li>
+        <code>x + y = 10</code>
+      </section>
     </main>
-
 
     <script src="js/index.js"></script>
   </body>
